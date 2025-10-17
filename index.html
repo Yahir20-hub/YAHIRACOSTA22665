@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SITIO WEB YAHIR</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome para los íconos -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a Mi Sitio</h1>
+
+    <div class="switch-tema">
+      <input type="checkbox" id="toggle-tema">
+      <label for="toggle-tema" class="slider">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+        <span class="bola"></span>
+      </label>
+    </div>
+  </header>
+
+  <section class="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Mi nombre es Yahir Acosta Antonio y estudio en la utsc</p>
+  </section>
+
+  <section class="servicios">
+    <h2>Servicios</h2>
+    <div class="contenedor-servicios">
+      <div class="tarjeta">HTML</div>
+      <div class="tarjeta">CSS</div>
+      <div class="tarjeta">JAVA SCRIPT</div>    
+      <div class="tarjeta">PYTHON</div>         
+    </div>
+  </section>
+
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
